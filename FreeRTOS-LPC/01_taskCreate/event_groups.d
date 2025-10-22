@@ -1,0 +1,16 @@
+event_groups.o: C:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\event_groups.c
+event_groups.o: C:\Keil\ARM\ARMCC\bin\..\include\stdlib.h
+event_groups.o: C:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\FreeRTOS.h
+event_groups.o: C:\Keil\ARM\ARMCC\bin\..\include\stddef.h
+event_groups.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+event_groups.o: C:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\FreeRTOSConfig.h
+event_groups.o: C:\Keil\ARM\Inc\Philips\lpc21xx.h
+event_groups.o: C:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\projdefs.h
+event_groups.o: C:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\portable.h
+event_groups.o: C:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\deprecated_definitions.h
+event_groups.o: C:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\..\..\Source\portable\RVDS\ARM7_LPC21xx\portmacro.h
+event_groups.o: C:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\mpu_wrappers.h
+event_groups.o: C:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\task.h
+event_groups.o: C:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\list.h
+event_groups.o: C:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\timers.h
+event_groups.o: C:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\event_groups.h

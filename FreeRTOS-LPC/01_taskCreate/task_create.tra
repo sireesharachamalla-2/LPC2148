@@ -1,0 +1,28 @@
+*** Creating Trace Output File 'task_create.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup.o"'
+### List of Objects: adding '"task.o"'
+### List of Objects: adding '"port.o"'
+### List of Objects: adding '"queue.o"'
+### List of Objects: adding '"list.o"'
+### List of Objects: adding '"tasks.o"'
+### List of Objects: adding '"timers.o"'
+### List of Objects: adding '"heap_2.o"'
+### List of Objects: adding '".\portasm.o"'
+### ADS-LD Command completed:
+--cpu ARM7TDMI "startup.o" "task.o" "port.o" "queue.o" "list.o" "tasks.o" "timers.o" "heap_2.o" ".\portasm.o" 
+--strict --scatter "task_create.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\task_create.map" -o task_create.axf### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'task_create.axf'
+### ADS-LD Command File: 'task_create.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'task_create.lnp', Handle=0x00000D38
+### Writing '.lnp' file
+### ADS-LD Command file 'task_create.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 1 errors
+### Updating obj list
+### LDADS_file() completed.
