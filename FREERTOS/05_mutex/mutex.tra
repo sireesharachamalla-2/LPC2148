@@ -1,0 +1,28 @@
+*** Creating Trace Output File 'mutex.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup.o"'
+### List of Objects: adding '"list.o"'
+### List of Objects: adding '"queue.o"'
+### List of Objects: adding '"tasks.o"'
+### List of Objects: adding '"timers.o"'
+### List of Objects: adding '"heap_1.o"'
+### List of Objects: adding '"port.o"'
+### List of Objects: adding '".\portasm.o"'
+### List of Objects: adding '"mutex.o"'
+### ADS-LD Command completed:
+--cpu ARM7TDMI "startup.o" "list.o" "queue.o" "tasks.o" "timers.o" "heap_1.o" "port.o" ".\portasm.o" "mutex.o" 
+--strict --scatter "mutex.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\mutex.map" -o mutex.axf### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'mutex.axf'
+### ADS-LD Command File: 'mutex.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'mutex.lnp', Handle=0x00000F0C
+### Writing '.lnp' file
+### ADS-LD Command file 'mutex.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

@@ -1,0 +1,28 @@
+*** Creating Trace Output File 'task_create_parameters.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup.o"'
+### List of Objects: adding '"task_creation_with_perameters.o"'
+### List of Objects: adding '"tasks.o"'
+### List of Objects: adding '"queue.o"'
+### List of Objects: adding '"timers.o"'
+### List of Objects: adding '"list.o"'
+### List of Objects: adding '"heap_1.o"'
+### List of Objects: adding '"port.o"'
+### List of Objects: adding '".\portasm.o"'
+### ADS-LD Command completed:
+--cpu ARM7TDMI "startup.o" "task_creation_with_perameters.o" "tasks.o" "queue.o" "timers.o" "list.o" "heap_1.o" "port.o" ".\portasm.o" 
+--strict --scatter "task_create_parameters.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\task_create_parameters.map" -o task_create_parameters.axf### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'task_create_parameters.axf'
+### ADS-LD Command File: 'task_create_parameters.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'task_create_parameters.lnp', Handle=0x00000D4C
+### Writing '.lnp' file
+### ADS-LD Command file 'task_create_parameters.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

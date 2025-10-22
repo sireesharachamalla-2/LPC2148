@@ -1,0 +1,28 @@
+*** Creating Trace Output File 'counting_semaphore.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup.o"'
+### List of Objects: adding '"queue.o"'
+### List of Objects: adding '"list.o"'
+### List of Objects: adding '"tasks.o"'
+### List of Objects: adding '"timers.o"'
+### List of Objects: adding '"port.o"'
+### List of Objects: adding '".\portasm.o"'
+### List of Objects: adding '"counting_semaphore.o"'
+### List of Objects: adding '"heap_1.o"'
+### ADS-LD Command completed:
+--cpu ARM7TDMI "startup.o" "queue.o" "list.o" "tasks.o" "timers.o" "port.o" ".\portasm.o" "counting_semaphore.o" "heap_1.o" 
+--strict --scatter "counting_semaphore.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\counting_semaphore.map" -o counting_semaphore.axf### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'counting_semaphore.axf'
+### ADS-LD Command File: 'counting_semaphore.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'counting_semaphore.lnp', Handle=0x0000118C
+### Writing '.lnp' file
+### ADS-LD Command file 'counting_semaphore.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

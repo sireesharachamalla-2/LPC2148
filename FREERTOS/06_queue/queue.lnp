@@ -1,0 +1,5 @@
+--cpu ARM7TDMI "startup.o" "tasks.o" "timers.o" "list.o" "port.o" ".\portasm.o" "heap_1.o" "queuee.o" 
+--strict --scatter "queue.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\queue.map" -o queue.axf

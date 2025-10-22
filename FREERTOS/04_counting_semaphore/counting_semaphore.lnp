@@ -1,0 +1,5 @@
+--cpu ARM7TDMI "startup.o" "queue.o" "list.o" "tasks.o" "timers.o" "port.o" ".\portasm.o" "counting_semaphore.o" "heap_1.o" 
+--strict --scatter "counting_semaphore.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\counting_semaphore.map" -o counting_semaphore.axf

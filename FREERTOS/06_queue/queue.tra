@@ -1,0 +1,27 @@
+*** Creating Trace Output File 'queue.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup.o"'
+### List of Objects: adding '"tasks.o"'
+### List of Objects: adding '"timers.o"'
+### List of Objects: adding '"list.o"'
+### List of Objects: adding '"port.o"'
+### List of Objects: adding '".\portasm.o"'
+### List of Objects: adding '"heap_1.o"'
+### List of Objects: adding '"queuee.o"'
+### ADS-LD Command completed:
+--cpu ARM7TDMI "startup.o" "tasks.o" "timers.o" "list.o" "port.o" ".\portasm.o" "heap_1.o" "queuee.o" 
+--strict --scatter "queue.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\queue.map" -o queue.axf### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'queue.axf'
+### ADS-LD Command File: 'queue.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'queue.lnp', Handle=0x0000090C
+### Writing '.lnp' file
+### ADS-LD Command file 'queue.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 3 errors
+### Updating obj list
+### LDADS_file() completed.

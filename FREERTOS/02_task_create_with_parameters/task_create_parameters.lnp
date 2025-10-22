@@ -1,0 +1,5 @@
+--cpu ARM7TDMI "startup.o" "task_creation_with_perameters.o" "tasks.o" "queue.o" "timers.o" "list.o" "heap_1.o" "port.o" ".\portasm.o" 
+--strict --scatter "task_create_parameters.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\task_create_parameters.map" -o task_create_parameters.axf

@@ -1,0 +1,5 @@
+-c --cpu ARM7TDMI -g -O0 --apcs=interwork -IC:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include -IC:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\portable\RVDS\ARM7_LPC21xx -IC:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Demo\Common 
+-I C:\Keil\ARM\RV31\INC 
+-I C:\Keil\ARM\CMSIS\Include 
+-I C:\Keil\ARM\Inc\Philips 
+-o "port.o" --omf_browse "port.crf" --depend "port.d" "C:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\portable\RVDS\ARM7_LPC21xx\port.c"
