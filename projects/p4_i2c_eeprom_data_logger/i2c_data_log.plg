@@ -1,0 +1,14 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Users\siree\OneDrive\Desktop\LPC2148\projects\p4_i2c_eeprom_data_logger\i2c_data_log.uvproj
+Project File Date:  10/25/2025
+
+<h2>Output:</h2>
+Build target 'Target 1'
+linking...
+Program Size: Code=2604 RO-data=32 RW-data=4 ZI-data=1276  
+FromELF: creating hex file...
+"i2c_data_log.axf" - 0 Error(s), 0 Warning(s).

@@ -1,0 +1,169 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Users\siree\OneDrive\Desktop\LPC2148\projects\p1_digital_temperature_logger\temp.uvproj
+Project File Date:  10/24/2025
+
+<h2>Output:</h2>
+Build target 'Target 1'
+compiling temp_logger_uart.c...
+temp_logger_uart.c(15): error:  #20: identifier "UOLSR" is undefined
+temp_logger_uart.c(67): warning:  #223-D: function "Uartinit" declared implicitly
+temp_logger_uart.c(68): error:  #268: declaration may not appear after executable statement in block
+temp_logger_uart.c(68): error:  #144: a value of type "char *" cannot be used to initialize an entity of type "char"
+temp_logger_uart.c(69): error:  #167: argument of type "char" is incompatible with parameter of type "char *"
+temp_logger_uart.c(76): warning:  #223-D: function "sprintf" declared implicitly
+temp_logger_uart.c(84): warning:  #1-D: last line of file ends without a newline
+Target not created
+Rebuild target 'Target 1'
+assembling Startup.s...
+compiling temp_logger_uart.c...
+temp_logger_uart.c(15): error:  #20: identifier "UOLSR" is undefined
+temp_logger_uart.c(67): warning:  #223-D: function "Uartinit" declared implicitly
+temp_logger_uart.c(68): error:  #268: declaration may not appear after executable statement in block
+temp_logger_uart.c(68): error:  #144: a value of type "char *" cannot be used to initialize an entity of type "char"
+temp_logger_uart.c(69): error:  #167: argument of type "char" is incompatible with parameter of type "char *"
+temp_logger_uart.c(76): warning:  #223-D: function "sprintf" declared implicitly
+temp_logger_uart.c(85): warning:  #1-D: last line of file ends without a newline
+Target not created
+Build target 'Target 1'
+compiling temp_logger_uart.c...
+temp_logger_uart.c(15): error:  #20: identifier "UOLSR" is undefined
+temp_logger_uart.c(67): warning:  #223-D: function "Uartinit" declared implicitly
+temp_logger_uart.c(68): error:  #268: declaration may not appear after executable statement in block
+temp_logger_uart.c(68): error:  #144: a value of type "char *" cannot be used to initialize an entity of type "char"
+temp_logger_uart.c(69): error:  #167: argument of type "char" is incompatible with parameter of type "char *"
+temp_logger_uart.c(76): warning:  #223-D: function "sprintf" declared implicitly
+temp_logger_uart.c(85): warning:  #1-D: last line of file ends without a newline
+Target not created
+Build target 'Target 1'
+compiling temp_logger_uart.c...
+temp_logger_uart.c(15): error:  #20: identifier "UOLSR" is undefined
+temp_logger_uart.c(68): error:  #268: declaration may not appear after executable statement in block
+temp_logger_uart.c(68): error:  #144: a value of type "char *" cannot be used to initialize an entity of type "char"
+temp_logger_uart.c(69): error:  #167: argument of type "char" is incompatible with parameter of type "char *"
+temp_logger_uart.c(76): warning:  #223-D: function "sprintf" declared implicitly
+temp_logger_uart.c(85): warning:  #1-D: last line of file ends without a newline
+Target not created
+Build target 'Target 1'
+compiling temp_logger_uart.c...
+temp_logger_uart.c(68): error:  #268: declaration may not appear after executable statement in block
+temp_logger_uart.c(68): error:  #144: a value of type "char *" cannot be used to initialize an entity of type "char"
+temp_logger_uart.c(69): error:  #167: argument of type "char" is incompatible with parameter of type "char *"
+temp_logger_uart.c(76): warning:  #223-D: function "sprintf" declared implicitly
+temp_logger_uart.c(85): warning:  #1-D: last line of file ends without a newline
+Target not created
+Build target 'Target 1'
+compiling temp_logger_uart.c...
+temp_logger_uart.c(68): error:  #268: declaration may not appear after executable statement in block
+temp_logger_uart.c(68): error:  #144: a value of type "char *" cannot be used to initialize an entity of type "char"
+temp_logger_uart.c(69): error:  #167: argument of type "char" is incompatible with parameter of type "char *"
+temp_logger_uart.c(85): warning:  #1-D: last line of file ends without a newline
+Target not created
+Build target 'Target 1'
+compiling temp_logger_uart.c...
+temp_logger_uart.c(68): error:  #268: declaration may not appear after executable statement in block
+temp_logger_uart.c(85): warning:  #1-D: last line of file ends without a newline
+Target not created
+Build target 'Target 1'
+compiling temp_logger_uart.c...
+temp_logger_uart.c(68): error:  #268: declaration may not appear after executable statement in block
+temp_logger_uart.c(81): warning:  #1-D: last line of file ends without a newline
+Target not created
+Build target 'Target 1'
+compiling temp_logger_uart.c...
+temp_logger_uart.c(68): error:  #268: declaration may not appear after executable statement in block
+temp_logger_uart.c(82): warning:  #1-D: last line of file ends without a newline
+Target not created
+Build target 'Target 1'
+compiling temp_logger_uart.c...
+temp_logger_uart.c(75): error:  #268: declaration may not appear after executable statement in block
+temp_logger_uart.c(89): warning:  #1-D: last line of file ends without a newline
+Target not created
+Build target 'Target 1'
+compiling temp_logger_uart.c...
+temp_logger_uart.c(78): error:  #268: declaration may not appear after executable statement in block
+temp_logger_uart.c(92): warning:  #1-D: last line of file ends without a newline
+Target not created
+Build target 'Target 1'
+compiling temp_logger_uart.c...
+temp_logger_uart.c(78): error:  #268: declaration may not appear after executable statement in block
+Target not created
+Build target 'Target 1'
+compiling temp_logger_uart.c...
+temp_logger_uart.c(78): error:  #268: declaration may not appear after executable statement in block
+temp_logger_uart.c(79): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+Target not created
+Build target 'Target 1'
+compiling temp_logger_uart.c...
+temp_logger_uart.c(79): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+linking...
+Program Size: Code=7916 RO-data=192 RW-data=0 ZI-data=1256  
+FromELF: creating hex file...
+"temp.axf" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=7916 RO-data=192 RW-data=0 ZI-data=1256  
+FromELF: creating hex file...
+"temp.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling temp_logger_uart.c...
+temp_logger_uart.c(79): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+linking...
+Program Size: Code=7920 RO-data=192 RW-data=0 ZI-data=1256  
+FromELF: creating hex file...
+"temp.axf" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=7920 RO-data=192 RW-data=0 ZI-data=1256  
+FromELF: creating hex file...
+"temp.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=7920 RO-data=192 RW-data=0 ZI-data=1256  
+FromELF: creating hex file...
+"temp.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling temp_logger_uart.c...
+temp_logger_uart.c(81): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+linking...
+Program Size: Code=7916 RO-data=192 RW-data=0 ZI-data=1256  
+FromELF: creating hex file...
+"temp.axf" - 0 Error(s), 1 Warning(s).
+Rebuild target 'Target 1'
+assembling Startup.s...
+compiling temp_logger_uart.c...
+temp_logger_uart.c(81): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+linking...
+Program Size: Code=7916 RO-data=192 RW-data=0 ZI-data=1256  
+FromELF: creating hex file...
+"temp.axf" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=7916 RO-data=192 RW-data=0 ZI-data=1256  
+FromELF: creating hex file...
+"temp.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling temp_logger_uart.c...
+temp_logger_uart.c(81): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+linking...
+Program Size: Code=7920 RO-data=192 RW-data=0 ZI-data=1256  
+FromELF: creating hex file...
+"temp.axf" - 0 Error(s), 1 Warning(s).
+Rebuild target 'Target 1'
+assembling Startup.s...
+compiling temp_logger_uart.c...
+temp_logger_uart.c(81): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+linking...
+Program Size: Code=7920 RO-data=192 RW-data=0 ZI-data=1256  
+FromELF: creating hex file...
+"temp.axf" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling temp_logger_uart.c...
+temp_logger_uart.c(81): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+linking...
+Program Size: Code=7920 RO-data=192 RW-data=0 ZI-data=1256  
+FromELF: creating hex file...
+"temp.axf" - 0 Error(s), 1 Warning(s).

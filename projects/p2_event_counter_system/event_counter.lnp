@@ -1,0 +1,5 @@
+--cpu ARM7TDMI "startup.o" "event_counter.o" 
+--strict --scatter "event_counter.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\event_counter.map" -o event_counter.axf

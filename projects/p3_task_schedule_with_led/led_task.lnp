@@ -1,0 +1,5 @@
+--cpu ARM7TDMI "startup.o" "led.o" "list.o" "queue.o" "tasks.o" "timers.o" "heap_2.o" "port.o" ".\portasm.o" 
+--strict --scatter "led_task.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\led_task.map" -o led_task.axf

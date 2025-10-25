@@ -1,0 +1,21 @@
+*** Creating Trace Output File 'i2c_data_log.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup.o"'
+### List of Objects: adding '"i2c_data_log.o"'
+### ADS-LD Command completed:
+--cpu ARM7TDMI "startup.o" "i2c_data_log.o" 
+--strict --scatter "i2c_data_log.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\i2c_data_log.map" -o i2c_data_log.axf### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'i2c_data_log.axf'
+### ADS-LD Command File: 'i2c_data_log.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'i2c_data_log.lnp', Handle=0x0000095C
+### Writing '.lnp' file
+### ADS-LD Command file 'i2c_data_log.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

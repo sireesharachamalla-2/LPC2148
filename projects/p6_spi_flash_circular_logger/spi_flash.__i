@@ -1,0 +1,5 @@
+-c --cpu ARM7TDMI -g -O0 --apcs=interwork 
+-I C:\Keil\ARM\RV31\INC 
+-I C:\Keil\ARM\CMSIS\Include 
+-I C:\Keil\ARM\Inc\Philips 
+-o "spi_flash.o" --omf_browse "spi_flash.crf" --depend "spi_flash.d" "spi_flash.c"

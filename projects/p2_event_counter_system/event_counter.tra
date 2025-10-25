@@ -1,0 +1,21 @@
+*** Creating Trace Output File 'event_counter.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup.o"'
+### List of Objects: adding '"event_counter.o"'
+### ADS-LD Command completed:
+--cpu ARM7TDMI "startup.o" "event_counter.o" 
+--strict --scatter "event_counter.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\event_counter.map" -o event_counter.axf### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'event_counter.axf'
+### ADS-LD Command File: 'event_counter.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'event_counter.lnp', Handle=0x0000062C
+### Writing '.lnp' file
+### ADS-LD Command file 'event_counter.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

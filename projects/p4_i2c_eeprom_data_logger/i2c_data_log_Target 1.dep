@@ -1,0 +1,6 @@
+Dependencies for Project 'i2c_data_log', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Startup.s)(0x4F5858F0)(--cpu ARM7TDMI -g --apcs=interwork -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\Philips --list "Startup.lst" --xref -o "Startup.o" --depend "Startup.d")
+F (.\i2c_data_log.c)(0x68FCC4B8)(-c --cpu ARM7TDMI -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\Philips -o "i2c_data_log.o" --omf_browse "i2c_data_log.crf" --depend "i2c_data_log.d")
+I (C:\Keil\ARM\Inc\Philips\LPC214x.h)(0x68F8B2E9)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdio.h)(0x4EB0F5AE)
+I (C:\Keil\ARM\ARMCC\bin\..\include\string.h)(0x4EB0F5AE)
