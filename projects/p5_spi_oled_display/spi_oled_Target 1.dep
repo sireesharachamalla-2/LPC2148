@@ -1,0 +1,6 @@
+Dependencies for Project 'spi_oled', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Startup.s)(0x4F5858F0)(--cpu ARM7TDMI -g --apcs=interwork -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\Philips --list "Startup.lst" --xref -o "Startup.o" --depend "Startup.d")
+F (.\oled.c)(0x68FEEE5D)(-c --cpu ARM7TDMI -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\Philips -o "oled.o" --omf_browse "oled.crf" --depend "oled.d")
+I (C:\Keil\ARM\Inc\Philips\LPC214x.h)(0x68F8B2E9)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdio.h)(0x4EB0F5AE)
+I (C:\Keil\ARM\ARMCC\bin\..\include\string.h)(0x4EB0F5AE)
