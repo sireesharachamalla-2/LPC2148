@@ -1,0 +1,6 @@
+Dependencies for Project 'wireless_data_transmission', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Startup.s)(0x4F5858F0)(--cpu ARM7TDMI -g --apcs=interwork -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\Philips --list "Startup.lst" --xref -o "Startup.o" --depend "Startup.d")
+F (.\wireless_data.c)(0x6907A6E4)(-c --cpu ARM7TDMI -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\Philips -o "wireless_data.o" --omf_browse "wireless_data.crf" --depend "wireless_data.d")
+I (C:\Keil\ARM\Inc\Philips\LPC214x.h)(0x68F8B2E9)
+I (C:\Keil\ARM\ARMCC\bin\..\include\stdio.h)(0x4EB0F5AE)
+I (C:\Keil\ARM\ARMCC\bin\..\include\string.h)(0x4EB0F5AE)

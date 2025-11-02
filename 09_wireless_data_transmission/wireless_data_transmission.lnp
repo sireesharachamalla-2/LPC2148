@@ -1,0 +1,5 @@
+--cpu ARM7TDMI "startup.o" "wireless_data.o" 
+--strict --scatter "wireless_data_transmission.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\wireless_data_transmission.map" -o wireless_data_transmission.axf

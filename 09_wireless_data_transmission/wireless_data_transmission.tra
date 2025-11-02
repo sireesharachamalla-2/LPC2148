@@ -1,0 +1,21 @@
+*** Creating Trace Output File 'wireless_data_transmission.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup.o"'
+### List of Objects: adding '"wireless_data.o"'
+### ADS-LD Command completed:
+--cpu ARM7TDMI "startup.o" "wireless_data.o" 
+--strict --scatter "wireless_data_transmission.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\wireless_data_transmission.map" -o wireless_data_transmission.axf### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'wireless_data_transmission.axf'
+### ADS-LD Command File: 'wireless_data_transmission.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'wireless_data_transmission.lnp', Handle=0x000010BC
+### Writing '.lnp' file
+### ADS-LD Command file 'wireless_data_transmission.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.
